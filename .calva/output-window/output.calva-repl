@@ -1,0 +1,107 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - File URLs in stacktrace frames are peekable and clickable.
+clj::restful-example.core=> 
+; Jack-in done.
+; Evaluating file: core.clj
+#'restful-example.core/-main
+clj::restful-example.core=> 
+; Syntax error compiling at (dev/user.clj:27:1).
+; Unable to resolve symbol: start! in this context
+[{:file "Compiler.java" :line 6808 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3820 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7109 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6120 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5467 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 4029 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7105 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7174 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:368" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/romullo-pereira/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/romullo-pereira/.asdf/installs/java/adoptopenjdk-8.0.265+1.openj9-0.21.0/src.zip!/java/lang/Thread.java:823" :method "run" :flags [:java]}]
+clj::user=> 
+; Evaluating file: user.clj
+nil
+clj::user=> 
+#:io.pedestal.http{:routes #function[user/fn--28701],
+                   :server
+                   #object[org.eclipse.jetty.server.Server 0x16470361 "Server@16470361{STARTED}[9.4.18.v20190429]"],
+                   :stop-fn #function[io.pedestal.http.jetty/server/fn--28776],
+                   :type :jetty,
+                   :port 3000,
+                   :servlet
+                   #object[io.pedestal.http.servlet.FnServlet 0x2981623d "io.pedestal.http.servlet.FnServlet@2981623d"],
+                   :host "localhost",
+                   :join? false,
+                   :service-fn #function[io.pedestal.http.impl.servlet-interceptor/interceptor-service-fn/fn--15770],
+                   :interceptors
+                   [{:name :io.pedestal.http/log-request,
+                     :enter #function[io.pedestal.interceptor.helpers/on-request/fn--10879],
+                     :leave nil,
+                     :error nil}
+                    {:name :io.pedestal.http/not-found,
+                     :enter nil,
+                     :leave #function[io.pedestal.interceptor.helpers/after/fn--10843],
+                     :error nil}
+                    {:name :io.pedestal.http.ring-middlewares/content-type-interceptor,
+                     :enter nil,
+                     :leave #function[io.pedestal.interceptor.helpers/after/fn--10843],
+                     :error nil}
+                    {:name :io.pedestal.http.route/query-params,
+                     :enter #function[io.pedestal.http.route/fn--11751],
+                     :leave nil,
+                     :error nil}
+                    {:name :io.pedestal.http.route/path-params-decoder,
+                     :enter #function[io.pedestal.http.route/fn--11753],
+                     :leave nil,
+                     :error nil}
+                    {:name :io.pedestal.http.route/method-param,
+                     :enter #function[io.pedestal.http.route/method-param/fn--11756],
+                     :leave nil,
+                     :error nil}
+                    {:name :io.pedestal.http.secure-headers/secure-headers,
+                     :enter nil,
+                     :leave #function[io.pedestal.http.secure-headers/secure-headers/fn--14109],
+                     :error nil}
+                    {:name :io.pedestal.http.route/router,
+                     :enter #function[io.pedestal.http.route/eval11743/fn--11744/fn--11745],
+                     :leave nil,
+                     :error nil}
+                    {:name :io.pedestal.http.body-params/body-params,
+                     :enter #function[io.pedestal.interceptor.helpers/on-request/fn--10879],
+                     :leave nil,
+                     :error nil}],
+                   :start-fn #function[io.pedestal.http.jetty/server/fn--28774]}
+clj::user=> 
